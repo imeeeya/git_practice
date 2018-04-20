@@ -1,14 +1,13 @@
 Markdown language
 
-#First
-##Seconds
+Heading
+=======
 
-or
-
-First-level heading
-==================
+##Sub heading
+### sub of sub heading
 
 Paragraph
+=========
 
 First paragraph. 2 sentences.
 
@@ -16,6 +15,7 @@ Seconds paragraph. Also has
 2 sentences.
 
 List
+=======
 
 *one
 *two
@@ -23,7 +23,9 @@ List
 
 - one
 - two
-- tree
+- three
+	- three and one
+	- three and two
 
 
 1. one 
@@ -34,6 +36,7 @@ List
 5. six
 
 Styles
+======
 
 **Bold** or __BOLD__ writing
 
@@ -41,12 +44,42 @@ Styles
 
 ~~cancle~~ writing
 
-Code
-#!/user/bin/env clojure
-	(println "Hello, World!")
+`monospace`
+
 
 Quetate
+=======
 
 >hello
 >world
+
+
+Link 
+=======
+
+[pholar](https://www.pholar.co)
+
+From [PHOLAR][imee] 
+
+[imee]: http://www.pholar.co/imee "imee's pholar"
+
+
+Horizonal line
+=============
+
+* * * 
+***
+*****
+- - - 
+-------------
+
+Codes
+==========
+
+```javascript
+if (isAwesome){
+	return true
+}
+```
+
 
